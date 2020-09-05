@@ -3,7 +3,7 @@
 
 		<h1>Editing Book</h1>
 
-		<%= render "books/newform", book: @book %>
+		<%= render "books/newform",  book: @book %>
 		<%= link_to "Show", book_path(@book), class: "book_#{@book.id}" %>
 		<%= link_to "Back", books_path, class: "back" %>
 
@@ -11,3 +11,4 @@
 	<div class="col-md-3"></div>
 
 </div>
+
